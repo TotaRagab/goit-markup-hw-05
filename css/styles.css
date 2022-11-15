@@ -553,7 +553,8 @@ margin-bottom: 9px;
   width: calc((100% - 60px)/3);
 }
 
-.work-list-item:hover .work-top-text {
+.work-link:hover .work-top-text,
+.work-link:focus .work-top-text {
   transform: translatey(0);
 }
 
